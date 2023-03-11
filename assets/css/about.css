@@ -1,0 +1,40 @@
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    order: 1;
+}
+
+.item:nth-child(odd) {
+    order: 2;
+}
+
+img {
+    max-width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.description {
+    flex: 1;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+am {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3b3004;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
